@@ -1,0 +1,12 @@
+print("Welcome to coin toss simulator! Choose an option")
+import random
+
+choice = input("Heads or Tails? ").lower()
+result = random.choice(["heads", "tails"])
+
+print("Coin landed on:", result)
+
+if choice == result:
+    print("You win 🎉")
+else:
+    print("You lose 😭")
