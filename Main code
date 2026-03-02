@@ -7,6 +7,6 @@ result = random.choice(["heads", "tails"])
 print("Coin landed on:", result)
 
 if choice == result:
-    print("You win 🎉")
+    print("You win")
 else:
-    print("You lose 😭")
+    print("You lose")
